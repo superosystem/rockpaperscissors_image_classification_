@@ -36,5 +36,5 @@ build/
 .env
 
 ### Local Database ###
-local_database/
 local_database
+local_database/

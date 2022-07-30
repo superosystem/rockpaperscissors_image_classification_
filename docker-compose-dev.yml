@@ -2,11 +2,11 @@ version: '2.6'
 
 services:
   database:
-    container_name: 'ecommerce'
+    container_name: 'shop_rest'
     image: postgres:14
     restart: always
     environment:
-      POSTGRES_DB: 'ecommerce_db'
+      POSTGRES_DB: 'shop_db'
       POSTGRES_USER: '${DB_USERNAME}'
       POSTGRES_PASSWORD: '${DB_PASSWORD}'
       PGDATA: '/var/lib/postgresql/data/pgdata'

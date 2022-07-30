@@ -1,13 +1,13 @@
-package com.gusrylmubarok.ecommerce.backend;
+package com.gusrylmubarok.shop.core;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EcommerceBackendApplication {
+public class CoreBackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EcommerceBackendApplication.class, args);
+		SpringApplication.run(CoreBackendApplication.class, args);
 	}
 
 }

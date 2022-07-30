@@ -1,1 +1,1 @@
-# Example E-Commerce with Spring and Angular
+# REST API for Shop Web Service with Spring
